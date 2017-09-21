@@ -1,16 +1,33 @@
-header{
-        width: 100%;
-        height: 100%;
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: url(asssets/H%C3%A1tt%C3%A9rk%C3%A9p.jpg) no-repeat center/cover fixed; 
+	text-align: center;
+	width 100%;
+	height: 100%;
 }
 
 .cover{
-        background: url(asssets/H%C3%A1tt%C3%A9rk%C3%A9p.jpg) no-repeat;
-        width: 100%;
-        height: 100%;
-        
+ 	
+	width 100%;
+	height: 100%;
+	color: #111;
 }
 
-h1, p{
-        text-align: center;
-        
+.cover h1{
+	margin-top: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	letter-spacing: .2rem;
+	line-height: 3rem;
+	font-weight: lighter;
+}
+
+.cover p{
+	font-size: 1.5rem;
+	margin-top: 3rem;
+	font-style: italic;
 }

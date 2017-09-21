@@ -31,3 +31,31 @@ body{
 	font-style: italic;
 	margin-top: 1.5rem;
 }
+
+@media (min-width: 768px){
+	.cover{ 	
+ 		color: #000;
+		text-shadow: none;
+		font-weight: normal;
+		padding-top: 2rem;
+  }
+	.cover h1{
+		font-size: 2.5rem;
+		letter-spacing: .2rem;
+		line-height: 4rem;
+		margin: 10rem 1.5rem 0; 
+	}
+
+	.cover p{
+		font-size: 1.5rem;
+		font-style: italic;
+		margin-top: 1.5rem;
+	}
+}
+
+@media(min-width: 1500px){
+	.cover h1{
+		line-height: 6rem;
+		margin: 10rem 1.5rem 0;
+	}
+}

@@ -23,13 +23,13 @@ body{
 	font-size: 1.5rem;
 	letter-spacing: .1rem;
 	line-height: 2.5rem;
-	margin: 10rem 1.5rem 0; 
+	margin: 5rem 1.5rem 0; 
 }
 
 .cover p{
 	font-size: 1.3rem;
 	font-style: italic;
-	margin-top: 1.5rem;
+	margin: 1rem auto;
 }
 
 @media (min-width: 768px){
